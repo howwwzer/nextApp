@@ -1,0 +1,10 @@
+.navbar ul {
+	background-color: pink;
+	padding: 0 2rem;
+	font-weight: bold;
+}
+
+.active {
+	color: red;
+	text-decoration: underline;
+}
