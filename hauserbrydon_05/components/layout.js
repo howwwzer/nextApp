@@ -31,6 +31,7 @@ import Head from 'next/head';
 // confuse them with HTML elements
 import Nav from './nav.js';
 import Hello from './hello.js';
+import Day from './day.js';
 
 // import all the CSS rules from the layout.module.css file - any styles in
 // that document will be applied to the Layout component and any of its
@@ -82,6 +83,8 @@ export default function Layout({ children }) {
 		<Hello text = "I passed this text as a prop"/>
 
 		<main>{children}</main>
+
+		<Day name="Jeff" />
 
 		</div>
 	)
